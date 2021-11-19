@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+h3 {
+  color: gray;
+}
+
+header {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 1em;
+}
+
+main {
+  width: 60%;
+  height: 100vh;
+  padding: 2em 0.5em 0 2em;
+}
+
+aside {
+  width: 40%;
+  padding: 2em 0 0.5em 2em;
+}
+
+.start {
+  display: flex;
+  width: 25%;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: 1;
+  width: 50%;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+input,
+button {
+  border: grey 1px solid;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+}
+
+button {
+  padding: 1px 6px;
+}
+
+.yt-icon {
+  color: white;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  flex-grow: 4;
+}
+
+.video {
+  display: block;
+  width: 100%;
+}
+
+.user-pic {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.video-info,
+.menu-renderer {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-renderer {
+  align-items: center;
+  justify-content: left;
+}
+
+.menu-icons {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+.menu-video-parragrah {
+  font-size: 1, 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.video-info {
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+}
+
+.card-preview-video {
+  display: block;
+  object-fit: cover;
+}
+
+.card-next-video {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.card-video-metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 94px;
+  margin-left: 0.2em;
+}
+
+.card-video-metadata * p {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title,
+.card-channel,
+.card-views,
+.card-scope {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+}
+
+.card-channel,
+.card-views,
+.card-scope {
+  color: gray;
+  font-size: 12px;
+}
+
+.video-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.label-type {
+  background: lightgray;
+  margin-top: 0;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  border-radius: 1em;
+}
